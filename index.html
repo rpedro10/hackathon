@@ -29,6 +29,9 @@
           color:#ef5c64;
           border:none;
         }
+        .img-fluid:hover{
+          filter:grayscale(0.3);
+        }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -46,6 +49,11 @@
       p{
         margin-bottom:0px;
       }
+      @media only screen and (min-width: 800px) {
+  #title1 {
+    font-size: 6rem;
+  }
+}
       
 #clockdiv{
 color: #ef5c64  ;
@@ -78,7 +86,7 @@ font-size: 13px;
   <body>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-2 text-center" style="background-color: #fec456;padding-top:20px;">
+    <div class="col-lg-2 col-sm-12 text-center" style="background-color: #fec456;padding-top:20px;">
       <div class="h2" style="color:white;padding-top:30px">
           <span style="color:#ef5c64">27TH</span>OF
           NOVE
@@ -94,15 +102,15 @@ font-size: 13px;
       </div>
 
     </div>
-    <div class="col-lg-9" style="background-color: #ef5c64;padding-top:20px;">
-        <div class="h1" style="color:white;font-size: 6rem;padding-top:30px;padding-left: 30px;">
+    <div class="col-lg-9 col-sm-12" style="background-color: #ef5c64;padding-top:20px;">
+        <div class="h1" id="title1" style="color:white;padding-top:30px;">
             DIGITAL MEDIA <br>
             IN HEALTH
             COMMUNICATION 
 
         </div>
     </div>
-    <div class="col-lg-1" style="background-color: #ef5c64;padding-left:0px;">
+    <div class="col-lg-1 col-sm-12" style="background-color: #ef5c64;padding-left:0px;">
         <div id="clockdiv">
           <div>
             <div class="smalltext" style="color:white">DAYS</div>
@@ -184,8 +192,8 @@ font-size: 13px;
         </div>
         <div id="p3" class="tab" style="background-color: #fec456; display: none;" >
             <div class="row" style="padding:50px;">
-              <div class="col-3">
-                  <div class="card" style="width: 18rem;">
+              <div class="col-lg-3 col-sm-6">
+                  <div class="card" >
                       <img src="./logo.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -193,8 +201,8 @@ font-size: 13px;
                       </div>
                     </div>
               </div>
-              <div class="col-3">
-                  <div class="card" style="width: 18rem;">
+              <div class="col-lg-3 col-sm-6">
+                  <div class="card" >
                       <img src="./logo.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -202,8 +210,8 @@ font-size: 13px;
                       </div>
                     </div>
               </div>
-              <div class="col-3">
-                  <div class="card" style="width: 18rem;">
+              <div class="col-lg-3 col-sm-6">
+                  <div class="card" >
                       <img src="./logo.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -212,8 +220,8 @@ font-size: 13px;
                     </div>
 
               </div>
-              <div class="col-3">
-                  <div class="card" style="width: 18rem;">
+              <div class="col-lg-3 col-sm-6">
+                  <div class="card" >
                       <img src="./logo.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
