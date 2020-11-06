@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>DIGITAL MEDIA IN HEALTH COMMUNICATION AND LITERACY</title>
+
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <style>
+      @font-face {
+      font-family: 'OCR A Std';
+      font-style: normal;
+      font-weight: normal;
+      src: local('OCR A Std'), url('OCRAStd.woff') format('woff');
+}
+      body{
+        font-family:'OCR A Std';      
+        }
+        .card{
+          background-color: transparent;
+          color:#ef5c64;
+          border:none;
+        }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      p{
+        margin-bottom:0px;
+      }
+      
+#clockdiv{
+color: #ef5c64  ;
+display: inline-block;
+font-weight: 100;
+text-align: center;
+font-size: 30px;
+}
+
+#clockdiv > div{
+padding: 10px;
+border-radius: 3px;
+/*background: #00BF96;*/
+display: inline-block;
+}
+
+#clockdiv div > span{
+padding: 10px;
+background: white;
+display: inline-block;
+}
+
+.smalltext{
+padding-top: px;
+font-size: 13px;
+}
+    </style>
+    
+  </head>
+  <body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2 text-center" style="background-color: #fec456;padding-top:20px;">
+      <div class="h2" style="color:white;padding-top:30px">
+          <span style="color:#ef5c64">27TH</span>OF
+          NOVE
+          MBER
+          2020
+      </div>
+      <br>
+      <div class="h2" style="color:white">
+          <span style="color:#ef5c64">19TH</span>OF
+          FEBR
+          UARY
+          2021
+      </div>
+
+    </div>
+    <div class="col-lg-9" style="background-color: #ef5c64;padding-top:20px;">
+        <div class="h1" style="color:white;font-size: 6rem;padding-top:30px;padding-left: 30px;">
+            DIGITAL MEDIA <br>
+            IN HEALTH
+            COMMUNICATION 
+
+        </div>
+    </div>
+    <div class="col-lg-1" style="background-color: #ef5c64;padding-left:0px;">
+        <div id="clockdiv">
+          <div>
+            <div class="smalltext" style="color:white">DAYS</div>
+            <span class="days"></span>
+          </div>
+          <div>
+              <div class="smalltext" style="color:white">HOURS</div>
+            <span class="hours"></span>
+          </div>
+          <div>
+              <div class="smalltext" style="color:white" >MINUTES</div>
+            <span class="minutes"></span>
+          </div>
+          <div>
+              <div class="smalltext" style="color:white">SECONDS</div>
+            <span class="seconds"></span>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col text-center" style="background-color: #00ac9e;">
+      <div class="h2" style="color:#fec456;padding:15px;margin-top:8px;">
+          APPLICATION DEADLINE 15TH OF NOVEMBER
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="padding:0px;">
+        <img src="./buton_01.jpg" class="img-fluid" alt="Responsive image"  id="img1" onclick="changeImage1()" style="min-width: 100%;">
+
+    </div>
+    <div class="col" style="padding:0px;">
+        <img src="./buton_02.jpg" class="img-fluid" alt="Responsive image"  id="img2" style="min-width: 100%;" onclick="changeImage2()">
+
+    </div>
+    <div class="col" style="padding:0px;">
+        <img src="./buton_03.jpg" class="img-fluid" alt="Responsive image" id="img3" style="min-width: 100%;" onclick="changeImage3()">
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col" style="padding:0px;">
+      <div id="p" class="tab" style="background-color: #ef5c64; display: none;" >
+        <p style="color:white; padding:50px;">The interuniversity Alliance EUGLOH – European University for Global Health,
+            a pilot initiative financed by the European Commission within the Erasmus+ Program,
+            is formed by 5 European Universities: University of Porto (Portugal), University of
+            Lund (Sweden), Ludwig-Maximilians-Universität München (Germany), University of
+            Szeged (Hungary) and Université Paris-Saclay (France).
+            This Alliance aims at stimulating cooperation on a variety of areas linked to Global
+            Health (digital health, public health and well-being, environmental protection and
+            food safety).
+            The Digital Media in Health Communication and Literacy activity is designed to assist
+            EUGLOH’s ambition of being a catalyst for daring and innovative ideas, namely in
+            defining innovative cross-disciplinary teaching methods, and ultimately contribute
+            for the improvement of students transversal skills preparing them not only for the
+            now, but also for emerging stronger for the foreseeable future.</p>
+      </div>
+      <div id="p2" class="tab" style="background-color: #465da0; display: none;" >
+          <p style="color:white; padding:50px;">The interuniversity Alliance EUGLOH – European University for Global Health,
+              a pilot initiative financed by the European Commission within the Erasmus+ Program,
+              is formed by 5 European Universities: University of Porto (Portugal), University of
+              Lund (Sweden), Ludwig-Maximilians-Universität München (Germany), University of
+              Szeged (Hungary) and Université Paris-Saclay (France).
+              This Alliance aims at stimulating cooperation on a variety of areas linked to Global
+              Health (digital health, public health and well-being, environmental protection and
+              food safety).
+              The Digital Media in Health Communication and Literacy activity is designed to assist
+              EUGLOH’s ambition of being a catalyst for daring and innovative ideas, namely in
+              defining innovative cross-disciplinary teaching methods, and ultimately contribute
+              for the improvement of students transversal skills preparing them not only for the
+              now, but also for emerging stronger for the foreseeable future.</p>
+        </div>
+        <div id="p3" class="tab" style="background-color: #fec456; display: none;" >
+            <div class="row" style="padding:50px;">
+              <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="./logo.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="./logo.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="./logo.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+
+              </div>
+              <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="./logo.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col" style="padding:0px;">
+          <img src="./buton_04.jpg" class="img-fluid" alt="Responsive image"  id="img4" onclick="changeImage4()" style="min-width: 100%;">
+  
+      </div>
+      <div class="col" style="padding:0px;">
+          <img src="./buton_05.jpg" class="img-fluid" alt="Responsive image"  id="img5" style="min-width: 100%;" onclick="changeImage5()">
+  
+      </div>
+      <div class="col" style="padding:0px;">
+          <img src="./buton_06.jpg" class="img-fluid" alt="Responsive image" id="img6" style="min-width: 100%;" onclick="changeImage6()">
+  
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="padding:0px;">
+        <div id="p4" class="tab" style="background-color: #fec456; display: none;" >
+          <p style="color:white; padding:50px;">The interuniversity Alliance EUGLOH – European University for Global Health,
+              a pilot initiative financed by the European Commission within the Erasmus+ Program,
+              is formed by 5 European Universities: University of Porto (Portugal), University of
+              Lund (Sweden), Ludwig-Maximilians-Universität München (Germany), University of
+              Szeged (Hungary) and Université Paris-Saclay (France).
+              This Alliance aims at stimulating cooperation on a variety of areas linked to Global
+              Health (digital health, public health and well-being, environmental protection and
+              food safety).
+              The Digital Media in Health Communication and Literacy activity is designed to assist
+              EUGLOH’s ambition of being a catalyst for daring and innovative ideas, namely in
+              defining innovative cross-disciplinary teaching methods, and ultimately contribute
+              for the improvement of students transversal skills preparing them not only for the
+              now, but also for emerging stronger for the foreseeable future.</p>
+        </div>
+        <div id="p5" class="tab" style="background-color: #ef5c64; display: none;" >
+            <p style="color:white; padding:50px;">The interuniversity Alliance EUGLOH – European University for Global Health,
+                a pilot initiative financed by the European Commission within the Erasmus+ Program,
+                is formed by 5 European Universities: University of Porto (Portugal), University of
+                Lund (Sweden), Ludwig-Maximilians-Universität München (Germany), University of
+                Szeged (Hungary) and Université Paris-Saclay (France).
+                This Alliance aims at stimulating cooperation on a variety of areas linked to Global
+                Health (digital health, public health and well-being, environmental protection and
+                food safety).
+                The Digital Media in Health Communication and Literacy activity is designed to assist
+                EUGLOH’s ambition of being a catalyst for daring and innovative ideas, namely in
+                defining innovative cross-disciplinary teaching methods, and ultimately contribute
+                for the improvement of students transversal skills preparing them not only for the
+                now, but also for emerging stronger for the foreseeable future.</p>
+          </div>
+          <div id="p6" class="tab" style="background-color: #00ac9e; display: none;" >
+              <p style="color:white; padding:50px;">The interuniversity Alliance EUGLOH – European University for Global Health,
+                  a pilot initiative financed by the European Commission within the Erasmus+ Program,
+                  is formed by 5 European Universities: University of Porto (Portugal), University of
+                  Lund (Sweden), Ludwig-Maximilians-Universität München (Germany), University of
+                  Szeged (Hungary) and Université Paris-Saclay (France).
+                  This Alliance aims at stimulating cooperation on a variety of areas linked to Global
+                  Health (digital health, public health and well-being, environmental protection and
+                  food safety).
+                  The Digital Media in Health Communication and Literacy activity is designed to assist
+                  EUGLOH’s ambition of being a catalyst for daring and innovative ideas, namely in
+                  defining innovative cross-disciplinary teaching methods, and ultimately contribute
+                  for the improvement of students transversal skills preparing them not only for the
+                  now, but also for emerging stronger for the foreseeable future.</p>
+            </div>
+      </div>
+    </div>
+  </div>
+<div class="container-fluid text-right" id="footer" style="background-color: #465da0;padding:20px;">
+  <p></p>
+    <img src="./logo.png" class="img" alt="Responsive image"  id="img1" style="width:72px">
+
+  
+
+</div>
+
+<script>/** COUNTER */
+    // Set the date we're counting down to
+    var countDownDate = new Date("Feb 19, 2021 09:37:25").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      /**document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";*/
+      document.getElementsByClassName("days").innerHTML = days ;
+      var clock = document.getElementById('clockdiv');
+      var daysSpan = clock.querySelector('.days');
+      var hoursSpan = clock.querySelector('.hours');
+      var minutesSpan = clock.querySelector('.minutes');
+      var secondsSpan = clock.querySelector('.seconds');
+    
+      daysSpan.innerHTML = days;
+      hoursSpan.innerHTML = hours;
+      minutesSpan.innerHTML = minutes;
+      secondsSpan.innerHTML = seconds;
+
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+
+
+    //$('#img1').on('click',function(){
+    //$('#p').show('slow');
+
+   
+$('#img1').on('click', function() {
+   $( ".tab" ).not("#p").hide(); 
+    $('#p').animate({
+        'height': 'toggle'
+    }, 1000);
+});
+$('#img2').on('click', function() {
+   $( ".tab" ).not("#p2").hide(); 
+    $('#p2').animate({
+        'height': 'toggle'
+    }, 1000);
+});
+$('#img3').on('click', function() {
+   $( ".tab" ).not("#p3").hide(); 
+    $('#p3').animate({
+        'height': 'toggle'
+    }, 1000);
+});
+
+   
+$('#img4').on('click', function() {
+   $( ".tab" ).not("#p4").hide(); 
+    $('#p4').animate({
+        'height': 'toggle'
+    }, 1000);
+});
+$('#img5').on('click', function() {
+   $( ".tab" ).not("#p5").hide(); 
+    $('#p5').animate({
+        'height': 'toggle'
+    }, 1000);
+});
+$('#img6').on('click', function() {
+   $( ".tab" ).not("#p6").hide(); 
+    $('#p6').animate({
+        'height': 'toggle'
+    }, 1000);
+});
+
+function changeImage1() {
+let name = document.getElementById("img1").src;
+if (!document.getElementById("img1").src.includes("over") )
+{console.log("true");
+    document.getElementById("img1").src = "./buton_01_over.jpg";
+}
+else 
+{console.log("false");
+    document.getElementById("img1").src = "./buton_01.jpg";
+}
+}
+function changeImage2() {
+let name = document.getElementById("img2").src;
+if (!document.getElementById("img2").src.includes("over") )
+{console.log("true");
+    document.getElementById("img2").src = "./buton_02_over.jpg";
+}
+else 
+{console.log("false");
+    document.getElementById("img2").src = "./buton_02.jpg";
+}
+}
+function changeImage3() {
+let name = document.getElementById("img3").src;
+if (!document.getElementById("img3").src.includes("over") )
+{console.log("true");
+    document.getElementById("img3").src = "./buton_03_over.jpg";
+}
+else 
+{console.log("false");
+    document.getElementById("img3").src = "./buton_03.jpg";
+}
+}
+function changeImage4() {
+let name = document.getElementById("img4").src;
+if (!document.getElementById("img4").src.includes("over") )
+{console.log("true");
+    document.getElementById("img4").src = "./buton_04_over.jpg";
+}
+else 
+{console.log("false");
+    document.getElementById("img4").src = "./buton_04.jpg";
+}
+}
+function changeImage5() {
+let name = document.getElementById("img5").src;
+if (!document.getElementById("img5").src.includes("over") )
+{console.log("true");
+    document.getElementById("img5").src = "./buton_05_over.jpg";
+}
+else 
+{console.log("false");
+    document.getElementById("img5").src = "./buton_05.jpg";
+}
+}
+function changeImage6() {
+let name = document.getElementById("img6").src;
+if (!document.getElementById("img6").src.includes("over") )
+{console.log("true");
+    document.getElementById("img6").src = "./buton_06_over.jpg";
+}
+else 
+{console.log("false");
+    document.getElementById("img6").src = "./buton_06.jpg";
+}
+}
+    </script>
+
+      <!--<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>-->
+</html>
